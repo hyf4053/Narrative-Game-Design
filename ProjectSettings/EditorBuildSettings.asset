@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Game Main Menu.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Main Game Story.unity
+    guid: 5b83d6c69e119184b95faac35f79acdd
+  - enabled: 1
+    path: Assets/Plugins/Ink/Example/Example.unity
+    guid: 8af1c5cbac5094782904447c9410b35d
+  - enabled: 1
+    path: Assets/Scenes/Matrix Card Game.unity
+    guid: a6c0c759f99343f4fb8ee7c47822fe5b
   m_configObjects: {}
