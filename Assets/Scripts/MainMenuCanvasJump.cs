@@ -3,8 +3,14 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class MainMenuCanvasJump : MonoBehaviour {
+
+	public GameObject optionMenuCanvas;
+
 	public void NewGame(){
 		StartCoroutine(LoadAsyncScene());
+	}
+	public void OptionMenu(){
+        optionMenuCanvas.SetActive(true);
 	}
 
 	IEnumerator LoadAsyncScene(){
